@@ -40,6 +40,26 @@ The subfolders should be organized as below:
     |   |   |   ├──test.jsonl
     |   |   ├── roberta_no_pretrain.ipynb
     |   |   └── model_RoBERTa_relu_nopretrain.pkl
+    |   └── 
     └── 
 ```
 
+## Presentation
+We created a video presentation to walk through the code and shows how to reproduce the results. The video can be found: https://mediaspace.illinois.edu/media/1_79uj7ghe.
+
+
+## File Description
+- Reports:
+    * CS410_ Project Proposal_TextDragons.pdf - Project proposal
+    * CS410 Project Progress Report.pdf - Project progress report
+- Code:
+    * code/Profiling.ipynb - Pre-modeling analysis
+    * code/roberta_no_pretrain.ipynb - Our best model, which uses roberta + relu
+    * code/roberta_no_pretrain_softmax.ipynb - roberta + softmax
+    * code/xlmroberta_no_pretrain.ipynb - xlmroberta + relu
+    * code/albert.ipynb - albert + relu
+    * code/Fasttext.ipynb - Fast text model
+    * code/clean.py - Data preprocessing script
+- Data:
+    * data/train.jsonl - labeled training data
+    * data/test.jsonl - unlabeled testing data
