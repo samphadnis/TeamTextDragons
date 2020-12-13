@@ -17,17 +17,17 @@ def clean(x):
     words  = [w.translate(table) for w in tokens]
     
     # remove remaining tokens that are not alphabetic
-    #words = [word for word in words if word.isalpha()]
+    #words = [word for word in words if word.isalpha()] commented out as this may remove emoticons
     
     # filter out stop words
-    #stop_words  = set(stopwords.words('english'))
-    #words       = [w for w in words if not w in stop_words]
+    stop_words  = set(stopwords.words('english'))
+    words       = [w for w in words if not w in stop_words]
     
     # stemming of words
-    #from nltk.stem.porter import PorterStemmer
-    #porter  = PorterStemmer()
-    #stemmed = [porter.stem(word) for word in tokens]
-    y = ' '.join(words)
+    from nltk.stem.porter import PorterStemmer
+    porter  = PorterStemmer()
+    stemmed = [porter.stem(word) for word in tokens]
+    y = ' '.join(stemmed)
 
     return y
 
