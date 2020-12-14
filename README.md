@@ -6,6 +6,11 @@ Please fork this repository and paste the github link of your fork on Microsoft 
 ## CS 410: Text Information Systems Final Project
 This repository contains the project code, data, report and video presentation for text classification competition.
 
+## Team members
+- Sameer Phadnis: phadnis3@illinois.edu
+- Abhishek Shinde: ashinde2@illinois.edu
+- Chen Yuan:cheny9@illinois.edu
+
 ## Code environment
 We are running our code on the google colab platform. You will need:
 - Python 3.x
