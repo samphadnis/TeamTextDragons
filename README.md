@@ -1,10 +1,11 @@
-# CourseProject
-
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
-
 # Contextual Twitter Sarcasm Detection
 ## CS 410: Text Information Systems Final Project
 This repository contains the project code, data, report and video presentation for text classification competition.
+
+## Team members
+- Sameer Phadnis: phadnis3@illinois.edu
+- Abhishek Shinde: ashinde2@illinois.edu
+- Chen Yuan:cheny9@illinois.edu
 
 ## Code environment
 We are running our code on the google colab platform. You will need:
@@ -40,6 +41,36 @@ The subfolders should be organized as below:
     |   |   |   ├──test.jsonl
     |   |   ├── roberta_no_pretrain.ipynb
     |   |   └── model_RoBERTa_relu_nopretrain.pkl
+    |   └── 
     └── 
 ```
 
+## Presentation
+We created a video presentation to walk through the code and show how to reproduce the results. The video can be found: https://mediaspace.illinois.edu/media/1_79uj7ghe.
+
+
+## File Description
+- Reports:
+    * CS410_ Project Proposal_TextDragons.pdf - Project proposal
+    * CS410 Project Progress Report.pdf - Project progress report
+- Code:
+    * code/Profiling.ipynb - Pre-modeling analysis
+    * code/roberta_no_pretrain.ipynb - Our best model, which uses roberta + relu
+    * code/roberta_no_pretrain_softmax.ipynb - roberta + softmax
+    * code/xlmroberta_no_pretrain.ipynb - xlmroberta + relu
+    * code/albert.ipynb - albert + relu
+    * code/Fasttext.ipynb - Fast text model
+    * code/clean.py - Data preprocessing script
+- Data:
+    * data/train.jsonl - labeled training data
+    * data/test.jsonl - unlabeled testing data
+
+## Reference
+Kozlov, Alexander. “Fine-Tuning BERT and RoBERTa for High Accuracy Text Classification in PyTorch.” Medium, Towards Data Science, 7 Sept. 2020, towardsdatascience.com/fine-tuning-bert-and-roberta-for-high-accuracy-text-classification-in-pytorch-c9e63cf64646. 
+ - The code repository we relied on can be found here: https://github.com/aramakus/ML-and-Data-Analysis/blob/master/RoBERTa%20for%20text%20classification.ipynb
+ 
+“Transformers.” Transformers - Transformers 4.0.0 Documentation, huggingface.co/transformers/index.html. 
+
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov: “RoBERTa: A Robustly Optimized BERT Pretraining Approach”, 2019; http://arxiv.org/abs/1907.11692 arXiv:1907.11692
+
+Amardeep Kumar, Vivek Anand: “Transformers on Sarcasm Detection with Context”, 2020; https://www.aclweb.org/anthology/2020.figlang-1.13.pdf
