@@ -1,7 +1,3 @@
-# CourseProject
-
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
-
 # Contextual Twitter Sarcasm Detection
 ## CS 410: Text Information Systems Final Project
 This repository contains the project code, data, report and video presentation for text classification competition.
