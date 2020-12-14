@@ -66,7 +66,10 @@ We created a video presentation to walk through the code and shows how to reprod
 
 ## Reference
 Kozlov, Alexander. “Fine-Tuning BERT and RoBERTa for High Accuracy Text Classification in PyTorch.” Medium, Towards Data Science, 7 Sept. 2020, towardsdatascience.com/fine-tuning-bert-and-roberta-for-high-accuracy-text-classification-in-pytorch-c9e63cf64646. 
-The code repository we relied on can be found here: https://github.com/aramakus/ML-and-Data-Analysis/blob/master/RoBERTa%20for%20text%20classification.ipynb
+ - The code repository we relied on can be found here: https://github.com/aramakus/ML-and-Data-Analysis/blob/master/RoBERTa%20for%20text%20classification.ipynb
+ 
 “Transformers.” Transformers - Transformers 4.0.0 Documentation, huggingface.co/transformers/index.html. 
+
 Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov: “RoBERTa: A Robustly Optimized BERT Pretraining Approach”, 2019; http://arxiv.org/abs/1907.11692 arXiv:1907.11692
+
 Amardeep Kumar, Vivek Anand: “Transformers on Sarcasm Detection with Context”, 2020; https://www.aclweb.org/anthology/2020.figlang-1.13.pdf
