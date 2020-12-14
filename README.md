@@ -64,7 +64,7 @@ We created a video presentation to walk through the code and shows how to reprod
     * data/train.jsonl - labeled training data
     * data/test.jsonl - unlabeled testing data
 
-Reference:
+## Reference
 Kozlov, Alexander. “Fine-Tuning BERT and RoBERTa for High Accuracy Text Classification in PyTorch.” Medium, Towards Data Science, 7 Sept. 2020, towardsdatascience.com/fine-tuning-bert-and-roberta-for-high-accuracy-text-classification-in-pytorch-c9e63cf64646. 
 The code repository we relied on can be found here: https://github.com/aramakus/ML-and-Data-Analysis/blob/master/RoBERTa%20for%20text%20classification.ipynb
 “Transformers.” Transformers - Transformers 4.0.0 Documentation, huggingface.co/transformers/index.html. 
