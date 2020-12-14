@@ -50,7 +50,7 @@ The subfolders should be organized as below:
 ```
 
 ## Presentation
-We created a video presentation to walk through the code and shows how to reproduce the results. The video can be found: https://mediaspace.illinois.edu/media/1_79uj7ghe.
+We created a video presentation to walk through the code and show how to reproduce the results. The video can be found: https://mediaspace.illinois.edu/media/1_79uj7ghe.
 
 
 ## File Description
